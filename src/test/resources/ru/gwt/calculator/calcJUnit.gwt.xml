@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="calc">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='ru.gwt.calculator.calc' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/calc/greet" class="ru.gwt.calculator.server.GreetingServiceImpl" />
+
+</module>
